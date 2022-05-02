@@ -1,4 +1,5 @@
 import config.ConfigProperties;
+import housing.storage.HousingDataBaseConnection;
 import storage.SQLiteConnection;
 
 import java.sql.Connection;
@@ -11,19 +12,18 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!!!");
-
-        Connection connection = SQLiteConnection.connect(ConfigProperties.INSTANCE.getConnectionString());
-
-        //esbenMain();
+        esbenMain();
         //simonMain();
     }
 
 
-    private void esbenMain() {
+    private static void esbenMain() {
+        SQLiteConnection connection = new HousingDataBaseConnection(ConfigProperties.INSTANCE.getHousingConnectionString());
 
+        connection.close();
     }
 
-    private void simonMain() {
+    private static void simonMain() {
 
     }
 }

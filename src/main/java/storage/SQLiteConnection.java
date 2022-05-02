@@ -7,10 +7,17 @@ import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class SQLiteConnection {
+public abstract class SQLiteConnection {
+    private final String connectionString;
+    protected Connection connection;
 
-    // TODO: Implement general setup for H2 connection here and make it so that it can connect to a database etc.
-    public static Connection connect(String connectionString) {
+
+    public SQLiteConnection(String connectionString) {
+        this.connectionString = connectionString;
+        this.connection = connect(connectionString);
+    }
+
+    private Connection connect(String connectionString) {
         Connection conn = null;
         try {
             // create a connection to the database
@@ -27,4 +34,15 @@ public class SQLiteConnection {
         return conn;
     }
 
+    public abstract void createTables();
+
+    public abstract void resetTables();
+
+    public void close() {
+        try {
+            this.connection.close();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

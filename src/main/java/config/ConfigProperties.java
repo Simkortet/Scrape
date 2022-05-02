@@ -18,7 +18,7 @@ public class ConfigProperties extends Properties {
         }
     }
 
-    public String getConnectionString() {
-        return getProperty("database.connection_string");
+    public String getHousingConnectionString() {
+        return getProperty("database.housing_connection_string");
     }
 }
