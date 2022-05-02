@@ -1,10 +1,12 @@
+import config.ConfigProperties;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
 public class SqliteInterface {
-    private final static String connectionString = "/home/simon/Development/SqliteDB";
+    private final static String connectionString = ConfigProperties.INSTANCE.getDataBaseConnectionString();
 
     public static void executeStatement(String userStatement){
         Connection connection = null;
