@@ -16,8 +16,8 @@ public class SdarmDocumentParser {
 
     public static SdarmLesson parseLesson(Elements lesson){
         SdarmMeta sdarmMeta = parseSdarmMeta(lesson.select("div.sbl_lesson_header"));
-        //TODO: Implement me
-        return new SdarmLesson(null, null);
+        SdarmContent sdarmContent = parseSdarmContent(lesson.select("div#lessons"));
+        return new SdarmLesson(sdarmMeta, sdarmContent);
     }
 
     private static SdarmMeta parseSdarmMeta(Elements lessonHeader){
@@ -44,14 +44,11 @@ public class SdarmDocumentParser {
 
     private static List<String> parseSuggestedReadings(Elements lessonHeader) {
         Element suggestedReadingsElement = lessonHeader.select("td.sbl_reading").first();
-        if (suggestedReadingsElement.hasText()){
-            return Arrays.stream(suggestedReadingsElement.text().split(";")).toList();
-        } else {
-            return Collections.emptyList();
-        }
+        return suggestedReadingsElement != null ?
+                Arrays.stream(suggestedReadingsElement.text().split(";")).toList() : Collections.emptyList();
     }
 
-    private static SdarmContent parseSdarmContent(Elements content){
+    private static SdarmContent parseSdarmContent(Elements contentWrapper){
         //TODO: implement
         throw new RuntimeException("SdarmContentParser not implemented");
     }

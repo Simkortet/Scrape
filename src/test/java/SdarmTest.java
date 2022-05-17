@@ -15,14 +15,11 @@ public class SdarmTest {
     public void testing() throws IOException {
 
         // Get the base html page
-        Document document = Jsoup.connect("https://sdarm.org/publications/periodicals/sbl/en/2022/2/7").get();
+        Document document = Jsoup.connect("https://sdarm.org/publications/periodicals/sbl/en/2022/2/8").get();
         Assertions.assertNotNull(document);
 
         // Select which element from the html page we are working on
         Element suggestedReadingsElement = document.select("td.sbl_reading").first();
-        List<String> expectedString = List.of("1 Corinthians 11:17–34", "The Desire of Ages, pp. 652-661.");
-        Assertions.assertEquals(expectedString, Arrays.stream(suggestedReadingsElement.text().split(";")).toList());
-
     }
 
     @Test
