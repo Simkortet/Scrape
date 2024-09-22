@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="505eb82b-4955-49df-8a2a-a101b3b2daf7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/housing/housing.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/housing/records/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/housing/storage/HousingDataBaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/db/SdarmDataBaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/SdarmLesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/SdarmLessonScrapeRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/SdarmLessonYearQuarterNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmCitation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmQuestionComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmSectionDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/content/SdarmVerse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/meta/SdarmLessonDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/records/meta/SdarmMeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/scrape/SdarmScraper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdarm/scrape/util/SdarmDocumentParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/storage/SQLiteConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Simkortet&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Simkortet/Scrape.git&quot;,
+    &quot;accountId&quot;: &quot;4f72c254-f07b-4db0-a7d2-d5cd1ea67951&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mQ5WzE7EDzaIvUehk5GWJy2I24" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;FSharp&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="505eb82b-4955-49df-8a2a-a101b3b2daf7" name="Changes" comment="" />
+      <created>1726995995347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726995995347</updated>
+      <workItem from="1726995998126" duration="2222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
